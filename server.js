@@ -12,7 +12,7 @@ router.use(express.urlencoded({ extended: true }));
 
 /* cargo modulo de pug */
 // Estableciendo el motor de plantilla que se utiliza
-app.set('view engine', 'pug'); 
+app.set('view engine', 'ejs'); 
 // establecemos el directorio donde se encuentran los archivos de la plantilla
 app.set('views', './views');
 
